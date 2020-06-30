@@ -1,0 +1,12 @@
+#Swap words and Replace
+
+	#example:- "rUns dOg"
+	#output:- DoG RuNS
+	#PYTHON 3
+
+
+	string=input()
+	str1= string.swapcase()
+	str=str1.split()
+	str=list(reversed(str))
+	print(" ".join(str))
